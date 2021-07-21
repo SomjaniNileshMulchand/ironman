@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 2rem;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 229, 211);
+}
+.man{
+    display: flex;
+    justify-content: center;
+}
+.ro{
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+}
