@@ -1,22 +1,34 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 1rem;
+    padding: 0.4rem;
 }
 h1{
     text-align: center;
-    margin: 2rem;
 }
 body{
     width: 100%;
     height: 100%;
-    background-color: rgb(243, 229, 211);
+    background-color: rgb(43, 194, 221);
 }
 .man{
     display: flex;
     justify-content: center;
 }
+img{
+    width: 24rem;
+    border: 0.8rem solid;
+    border-radius: 4rem;
+    padding: 1rem;
+    box-shadow: 1rem white;
+}
+img:hover{
+    mix-blend-mode: color-burn;
+}
 .ro{
     display: flex;
     text-align: center;
     cursor: pointer;
+    border: 0.2rem solid;
+    border-radius: 1rem;
+
 }
