@@ -15,11 +15,12 @@ body{
     justify-content: center;
 }
 img{
-    width: 24rem;
+    width: 23rem;
     border: 0.8rem solid;
     border-radius: 4rem;
     padding: 1rem;
     box-shadow: 1rem white;
+    position: relative;
 }
 img:hover{
     mix-blend-mode: color-burn;
